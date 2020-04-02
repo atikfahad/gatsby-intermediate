@@ -15,3 +15,16 @@ exports.onPreBootstrap = ({ store }, options) => {
     mkdirp.sync(dir);
   }
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+  // TODO it will create these nodes under allDocsPage >> nodes >> id, title, path, updated, body
+  actions.createTypes(`
+    type DocsPage implements Node @dontInfer {
+        id: ID!
+        title: String!
+        path: String!
+        updated: Date! @dateformat
+        body: String!
+    }
+    `);
+};
