@@ -20,6 +20,13 @@ module.exports = {
         uploadFolder: 'fem-workshop',
       },
     },
+    {
+      resolve: 'gatsby-theme-docs',
+      options: {
+        basePath: '/recipes',
+        contentPath: 'content/recipes',
+      },
+    },
   ],
 };
 // Gatsby Config commented out for the start branch
