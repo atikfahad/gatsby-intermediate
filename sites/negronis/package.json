@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "@mdx-js/react": "^1.5.8",
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.15.28",

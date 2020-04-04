@@ -27,6 +27,13 @@ module.exports = {
         contentPath: 'content/recipes',
       },
     },
+    {
+      resolve: '@jlengstorf/gatsby-theme-events',
+      options: {
+        basePath: '/events',
+        contentPath: 'content/events',
+      },
+    },
   ],
 };
 // Gatsby Config commented out for the start branch
