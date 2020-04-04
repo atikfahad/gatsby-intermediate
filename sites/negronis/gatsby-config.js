@@ -1,3 +1,6 @@
+module.exports = {
+  plugins: ['gatsby-plugin-theme-ui'],
+};
 // Gatsby Config commented out for the start branch
 // Jason adds this later in the course
 //
