@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Form from '../components/form';
+import Results from '../components/results';
 
 const Index = () => (
   <>
@@ -12,6 +13,7 @@ const Index = () => (
     {/* TODO Add Search form */}
     <Form />
     {/* TODO Add Result */}
+    <Results name="rick" />
   </>
 );
 
