@@ -26,7 +26,7 @@ const Results = ({ name }) => {
   const { loading, error, data } = useQuery(SEARCH_QUERY, {
     variables: { name },
   });
-  const hasResults = data && (data.characters.length || []).length > 0;
+  const hasResults = data && (data.characters.results || []).length > 0;
 
   return (
     <div style={{ maxWidth: 500, margin: '50px auto' }}>
